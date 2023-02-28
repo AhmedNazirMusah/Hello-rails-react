@@ -14,7 +14,7 @@ const Greeting = () => {
     return (
         <div>
           <Link to="/">Back to Home </Link>
-          <h1>{greeting.greeting}</h1>    
+          <p>{greeting.greeting}</p>    
         </div>
     )
 }
